@@ -106,3 +106,64 @@ button {
     font-weight: 300;
     color: #1F2937;
 }
+
+.quote{
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 100px 10%;
+}
+
+.quote p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.action .words{
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#f9faf8;
+    padding: 0px 10px;
+    gap: 10px;
+}
+
+.words h4{
+    font-weight:400;
+    font-size: 16px;
+}
+
+h4 .more{
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+.words button{
+    border-style: solid;
+    flex-shrink: 0;
+    padding-right: 40px;
+    padding-left: 40px;;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
